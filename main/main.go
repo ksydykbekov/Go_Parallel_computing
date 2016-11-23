@@ -1,3 +1,4 @@
+/*Example #1. Fibonacci Calculation */
 package main
 
 import ("fmt"
@@ -6,7 +7,7 @@ import ("fmt"
 
 func main()  {
 	go spinner(100 * time.Millisecond)
-	const n = 50
+	const n = 42
 	fibN := fib(n) // slow
 	fmt.Printf("\rFibonacci(%d) = %d\n", n, fibN)
 }
